@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 30px 100px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 50px;
+}
+
+nav ul li a{
+    color: #1d1d24;
+    position: relative;
+    padding: 5px 0;
+    font-family: "Nunito", sans-serif;
+}
+
+nav ul li a:hover{
+    color: palevioletred;
+}
+
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: palevioletred;
+    transition: .3s;
+    bottom: 0;
+}
+
+nav ul li a:hover:after{
+    width: 100%;
+}
+
+body {
+    background-color: ghostwhite;
+}
+
+h1 {
+    color: #1d1d24;
+    margin-left: 600px;
+    text-decoration-line: underline;
+    text-decoration-color: palevioletred;
+}
+
+.ResumeContent h2{
+    color: palevioletred;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+pre {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+.p1 {
+    margin-left: 500px;
+}

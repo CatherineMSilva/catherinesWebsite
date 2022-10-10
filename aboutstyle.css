@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 30px 100px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 50px;
+}
+
+nav ul li a{
+    color: #1d1d24;
+    position: relative;
+    padding: 5px 0;
+    font-family: "Nunito", sans-serif;
+}
+
+nav ul li a:hover{
+    color: palevioletred;
+}
+
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: palevioletred;
+    transition: .3s;
+    bottom: 0;
+}
+
+nav ul li a:hover:after{
+    width: 100%;
+}
+
+body {
+    background-color: ghostwhite;
+}
+.aboutPageContent h1{
+    font-family: "Nunito", sans-serif;
+    padding-bottom: 20px;
+}
+
+.aboutPageContent .name{
+    color: palevioletred;
+}
+
+.aboutPageContent p{
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    margin-left: 30px;
+    margin-right: 50px;
+    line-height: 1.5;
+    text-indent: 20px;
+}
+
+.aboutPageContent .fastFacts{
+    margin-left: 20px;
+}
+
+.aboutPageContent .email{
+    font-family: "Nunito", sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.5;
+    position:absolute;
+    padding: 20px 20px 20px 20px;
+}

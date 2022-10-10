@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 30px 100px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 50px;
+}
+
+nav ul li a{
+    color: #1d1d24;
+    position: relative;
+    padding: 5px 0;
+    font-family: "Nunito", sans-serif;
+}
+
+nav ul li a:hover{
+    color: palevioletred;
+}
+
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: palevioletred;
+    transition: .3s;
+    bottom: 0;
+}
+
+nav ul li a:hover:after{
+    width: 100%;
+}
+
+body {
+    background-color: ghostwhite;
+}
+
+.ContactPageContent h1{
+    line-height: 1.5;
+    text-decoration-line: underline;
+    text-decoration-color: palevioletred;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.ContactPageContent p{
+    line-height: 1.5;
+    text-align: center;
+}
