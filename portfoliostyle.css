@@ -55,7 +55,7 @@ body {
 }
 
 .portfolioPageContent h1{
-    font-family: "Nunito", sans-serif;
+    font-family: 'Nunito', sans-serif;
     padding-bottom: 20px;
 }
 
@@ -65,7 +65,7 @@ body {
 
 .portfolioPageContent p{
     font-size: 18px;
-    font-family: "Nunito", sans-serif;
+    font-family: 'Nunito', sans-serif;
     margin-left: 30px;
     margin-right: 50px;
     line-height: 1.5;
