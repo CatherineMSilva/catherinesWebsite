@@ -57,6 +57,7 @@ body {
 .portfolioPageContent h1{
     font-family: 'Nunito', sans-serif;
     padding-bottom: 20px;
+    margin-left: 10px;
 }
 
 .portfolioPageContent .name{
