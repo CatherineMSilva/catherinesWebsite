@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+/*@import url('https://fonts.googleapis.com/css?family=Nunito');*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
 
@@ -28,7 +28,7 @@ nav ul li a{
     color: #1d1d24;
     position: relative;
     padding: 5px 0;
-    font-family: "Nunito", sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 nav ul li a:hover{
